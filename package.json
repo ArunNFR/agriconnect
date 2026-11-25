@@ -1,0 +1,14 @@
+{
+  "name": "agriconnect",
+  "version": "1.0.0",
+  "description": "AgriConnect B2B agricultural marketplace — subscriptions, billing and revenue management",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "dev": "node --no-warnings src/server.js --demo",
+    "test": "node --no-warnings --test --test-concurrency=1 test/*.test.js"
+  },
+  "engines": { "node": ">=22.5" },
+  "dependencies": { "express": "^4.21.2" }
+}
